@@ -1,0 +1,95 @@
+https://run.mocky.io/v3/c62de5ac-7ae6-4b46-80da-09b8ab5fe539
+{
+data :[
+    {
+     name:'sapatilhas',
+     tipo:'Xpto',
+    },
+    {
+     name:'raquete2',
+     tipo:'Xpto',
+    },
+    {
+     name:'raquete3',
+     tipo:'Xpto',
+    },
+    {
+     name:'bolas',
+     tipo:'Xpto',
+    },
+    ]
+}
+https://run.mocky.io/v3/95b5b89d-b500-4b33-98ea-88158845e472
+{
+    data :[
+        {
+         name:'Campo1',
+         address:'Barcelos',
+         price:3.5
+        },
+        {
+         name:'Campo1',
+         address:'Barcelos',
+         price:3.5
+        },
+        {
+         name:'Campo1',
+         address:'Barcelos',
+         price:3.5
+        },
+        {
+         name:'Campo1',
+         address:'Barcelos',
+         price:3.5
+        },
+        ]
+    }
+
+
+    https://run.mocky.io/v3/c7e1adc5-c915-455d-b5c3-2b9dad17a400
+    {
+        data :[
+            {
+             name:'Joao',
+             address:'Barcelos',
+             enabled: true
+            },
+            {
+             name:'Emanuel',
+             address:'Barcelos',
+             enabled: true
+            },
+            {
+             name:'Joel',
+             address:'Esposende',
+             enabled: false
+            },
+            {
+             name:'Diogo',
+             address:'Barcelos',
+             enabled: false
+            },
+            ]
+        }
+
+        https://run.mocky.io/v3/60e7c214-e56e-4ab9-ba15-97c5d0e4397a
+
+        data :[
+            {
+             name:'Club 1',
+             address:'Bcl'
+            },
+            {
+             name:''Club 2',
+             address:'Esp'
+            },
+            {
+             name:'Club 3',
+             address:'Lx'
+            },
+            {
+             name:'Club 4',
+             address:'Opo'
+            },
+            ]
+        }

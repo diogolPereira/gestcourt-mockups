@@ -76,7 +76,7 @@ width:250px;
 .main-menu {
 background:#212121;
 border-right:1px solid #e5e5e5;
-width:60px;
+width:72px;
 height:100%;
 overflow:hidden;
 -webkit-transition: width .05s linear;
@@ -88,7 +88,7 @@ z-index: 1000;
 
 @media screen {
     .main-menu{
-        width: 60px;
+        width: 72px;
     }
 }
 .main-menu>ul {
@@ -136,9 +136,9 @@ font-family: 'Titillium Web', sans-serif;
 }
 
 .main-menu>ul.logout {
-position:absolute;
-left:0;
-bottom:0;
+    position: absolute;
+    left: 13px;
+    bottom: 0;
 }
 
 .no-touch .scrollable.hover {
