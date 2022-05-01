@@ -22,6 +22,8 @@
     <!-- Custom css -->
     <link rel="stylesheet" href="assets/css/variables.css" />
     <link rel="stylesheet" href="assets/css/index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/js/courts.js"></script>
   </head>
   <body class="h-100 w-100">
       <main>
@@ -84,60 +86,15 @@
                     </li>  
                 </ul>
             </nav>
-            <!-- <div class="d-flex  flex-column flex-shrink-0 pb-3 pt-3  text-white bg-dark col-2" >
-                <a href="/" class="d-flex align-items-center ps-3 pe-3 mb-3 text-white text-decoration-none">
-                    <img width="40" height="32" class="me-2" src="assets/imgs/logo.svg" alt="logo" />
-                  <span class="fs-4 text-muted">Gestcourt</span>
-                </a>
-                <ul class="nav nav-pills flex-column mb-auto">
-                  <li class="nav-item">
-                    <a href="#" class="nav-link " aria-current="page">
-                      <svg class="bi me-2 " width="16" height="16"><use xlink:href="#home"></use></svg>
-                      <label class="">Campos</label>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link " aria-current="page">
-                      <svg class="bi me-2 " width="16" height="16"><use xlink:href="#home"></use></svg>
-                      <label class="">Contactos</label>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link " aria-current="page">
-                      <svg class="bi me-2 " width="16" height="16"><use xlink:href="#home"></use></svg>
-                      <label class="">As minhas reservas</label>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link " aria-current="page">
-                      <svg class="bi me-2 " width="16" height="16"><use xlink:href="#home"></use></svg>
-                      <label class="">Definições</label>
-                    </a>
-                  </li>
-                </ul>
-                <hr>
-                <div class="dropdown">
-                  <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
-                    <strong>mdo</strong>
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
-                    <li><a class="dropdown-item" href="#">New project...</a></li>
-                    <li><a class="dropdown-item" href="#">Settings</a></li>
-                    <li><a class="dropdown-item" href="#">Profile</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Sign out</a></li>
-                  </ul>
-                </div>
-            </div> -->
+
             <div class="col bg-light">
                 <div class="row justify-content-center">
                     <div class="col-11 title">
-                        <h3>Dashboard</h3>
+                        <h3>Os meus Campos</h3>
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-6 mt-5 d-flex justify-content-center">
+                    <!-- <div class="col-6 mt-5 d-flex justify-content-center">
                         <div class="card text-center" style="width:50%">
                             <div class="card-title pt-4">
                                <label class="fs-5 text-muted">Reservas Realizadas</label>
@@ -156,33 +113,13 @@
                                 <label class="fs-1"> 10 </label>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-11 pt-5 bg-white" style="margin-top:5rem;">
-                        <table class="table table-hover ">
-                            <thead>
-                          <tr>
-                            <th scope="col text-muted">First</th>
-                            <th scope="col text-muted">Last</th>
-                            <th scope="col text-muted">Handle</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                          </tr>
-                          <tr>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                          </tr>
-                          <tr>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@twitter</td>
-                          </tr>
-                        </tbody>
+                    </div> -->
+                    <div id="table-container" class="col-11 py-3 bg-white" style="margin-top:3rem;">
+                        <label class="fs-4 py-3 "> Campos </label>
+
+                        <table id="customer-table" class="table table-hover ">
                         </table>
+
                     </div>
 
                   

@@ -19,31 +19,42 @@ data :[
     },
     ]
 }
-https://run.mocky.io/v3/95b5b89d-b500-4b33-98ea-88158845e472
+https://run.mocky.io/v3/236b96f3-09a9-4cf4-a082-60020ac16aa5
 {
-    data :[
-        {
-         name:'Campo1',
-         address:'Barcelos',
-         price:3.5
-        },
-        {
-         name:'Campo1',
-         address:'Barcelos',
-         price:3.5
-        },
-        {
-         name:'Campo1',
-         address:'Barcelos',
-         price:3.5
-        },
-        {
-         name:'Campo1',
-         address:'Barcelos',
-         price:3.5
-        },
-        ]
-    }
+    "data":[
+       {
+          "name":"Campo1",
+          "address":"Barcelos",
+          "price":"3.5"
+       },
+       {
+          "name":"Campo1",
+          "address":"Barcelos",
+          "price":"3.5"
+       },
+       {
+          "name":"Campo4",
+          "address":"Esposende",
+          "price":3.5
+       },
+       {
+          "name":"Campo2",
+          "address":"Barcelos",
+          "price":3.5
+       },
+       {
+        "name":"Campo3",
+        "address":"Barcelos",
+        "price":3.5
+       },
+       {
+         "name":"Campo2",
+         "address":"Esposende",
+         "price":3.5
+       }
+    ]
+ }
+ 
 
 
     https://run.mocky.io/v3/c7e1adc5-c915-455d-b5c3-2b9dad17a400
