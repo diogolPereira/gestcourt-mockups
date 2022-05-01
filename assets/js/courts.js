@@ -71,18 +71,22 @@ function removeRow(id){
     document.getElementById("court-"+id).remove();
     console.log("Removed 1 LINE")
 }
-
+function updateLabel(total,labelTotals){
+    labelTotals.textContent="Total:"+total;
+}
 $(document).ready(async function () {
+    var total = 0;
     var data = {};
     //get table and div container of table
     const table = document.getElementById("customer-table");
     const tableContainer = document.getElementById("table-container");
-    
+    const labelTotals = document.createElement('label');
+    labelTotals.classList.add('text-muted');
 
     console.log(table)
    
     data = await fetchCustomers();
-
+    total = data.length;
     createHeaderTable(table)
     data.forEach(function (element,index) {
         //add row
@@ -90,11 +94,12 @@ $(document).ready(async function () {
         //event delete
         $("#remove_court-"+index).click(function () {
             removeRow(index);
+            total--
+            updateLabel(total,labelTotals)
         })
     });
     //create label for totals
-    const labelTotals = document.createElement('label');
-    labelTotals.classList.add('text-muted');
-    labelTotals.textContent="Total:"+data.length;
+
+    updateLabel(total,labelTotals)
     tableContainer.appendChild(labelTotals)
 });
