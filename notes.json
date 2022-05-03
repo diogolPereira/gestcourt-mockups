@@ -3,19 +3,19 @@ https://run.mocky.io/v3/c62de5ac-7ae6-4b46-80da-09b8ab5fe539
 data :[
     {
      name:'sapatilhas',
-     tipo:'Xpto',
+     type:'Xpto',
     },
     {
      name:'raquete2',
-     tipo:'Xpto',
+     type:'Xpto',
     },
     {
      name:'raquete3',
-     tipo:'Xpto',
+     type:'Xpto',
     },
     {
      name:'bolas',
-     tipo:'Xpto',
+     type:'Xpto',
     },
     ]
 }
