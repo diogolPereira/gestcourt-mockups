@@ -1,24 +1,24 @@
 https://run.mocky.io/v3/c62de5ac-7ae6-4b46-80da-09b8ab5fe539
 {
-data :[
-    {
-     name:'sapatilhas',
-     type:'Xpto',
-    },
-    {
-     name:'raquete2',
-     type:'Xpto',
-    },
-    {
-     name:'raquete3',
-     type:'Xpto',
-    },
-    {
-     name:'bolas',
-     type:'Xpto',
-    },
+    "data":[
+       {
+          "name":"sapatilhas",
+          "type":"Xpto"
+       },
+       {
+          "name":"raquete2",
+          "type":"Xpto"
+       },
+       {
+          "name":"raquete3",
+          "type":"Xpto"
+       },
+       {
+          "name":"bolas",
+          "type":"Xpto"
+       }
     ]
-}
+ }
 https://run.mocky.io/v3/236b96f3-09a9-4cf4-a082-60020ac16aa5
 {
     "data":[
@@ -57,50 +57,50 @@ https://run.mocky.io/v3/236b96f3-09a9-4cf4-a082-60020ac16aa5
  
 
 
-    https://run.mocky.io/v3/c7e1adc5-c915-455d-b5c3-2b9dad17a400
-    {
-        data :[
-            {
-             name:'Joao',
-             address:'Barcelos',
-             enabled: true
-            },
-            {
-             name:'Emanuel',
-             address:'Barcelos',
-             enabled: true
-            },
-            {
-             name:'Joel',
-             address:'Esposende',
-             enabled: false
-            },
-            {
-             name:'Diogo',
-             address:'Barcelos',
-             enabled: false
-            },
-            ]
-        }
+ https://run.mocky.io/v3/070d1917-8bc8-4c80-8e1c-2b3ffe37faec
+ {
+    "data":[
+       {
+          "name":"Joao",
+          "address":"Barcelos",
+          "enabled":true
+       },
+       {
+          "name":"Emanuel",
+          "address":"Barcelos",
+          "enabled":true
+       },
+       {
+          "name":"Joel",
+          "address":"Esposende",
+          "enabled":false
+       },
+       {
+          "name":"Diogo",
+          "address":"Barcelos",
+          "enabled":true
+       }
+    ]
+ }
 
-        https://run.mocky.io/v3/60e7c214-e56e-4ab9-ba15-97c5d0e4397a
-
-        data :[
-            {
-             name:'Club 1',
-             address:'Bcl'
-            },
-            {
-             name:''Club 2',
-             address:'Esp'
-            },
-            {
-             name:'Club 3',
-             address:'Lx'
-            },
-            {
-             name:'Club 4',
-             address:'Opo'
-            },
-            ]
-        }
+https://run.mocky.io/v3/c7e62026-0d70-46ac-8d00-a4501eab3973
+{
+    "data":[
+       {
+          "name":"Club 1",
+          "address":"Bcl"
+       },
+       {
+          "name":"Club 2",
+          "address":"Esp"
+       },
+       {
+          "name":"Club 3",
+          "address":"Lx"
+       },
+       {
+          "name":"Club 4",
+          "address":"Opo"
+       }
+    ]
+ }
